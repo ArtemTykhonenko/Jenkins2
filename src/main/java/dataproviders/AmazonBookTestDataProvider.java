@@ -15,7 +15,7 @@ public class AmazonBookTestDataProvider {
     @DataProvider(name = "bookData")
     public static Object[][] bookData() {
         return new Object[][]{
-                new Object[]{new BookEntity("100 Java Mistakes and How to Avoid Them", "by Tagir Valeev | Apr 30, 2024", List.of("50"), false)},
+                new Object[]{new BookEntity("Java All-in-One For Dummies", "by Doug Lowe | Feb 14, 2023", List.of("27"), false)},
         };
     }
 }

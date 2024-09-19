@@ -12,7 +12,7 @@
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <org.seleniumhq.selenium>4.22.0</org.seleniumhq.selenium>
+        <org.seleniumhq.selenium>4.24.0</org.seleniumhq.selenium>
         <org.slf4j>2.0.11</org.slf4j>
         <ch.qos.logback>1.4.14</ch.qos.logback>
         <org.projectlombok>1.18.30</org.projectlombok>

@@ -40,7 +40,8 @@ public class BookHelper {
         for (int i = 1; i < allBooksOnPage.size(); i++) {
             String name = mainAmazonPage.getNameOfTheBook(i).getText();
             String author = mainAmazonPage.getAuthorOfTheBook(i).getText();
-
+            System.out.println("NAME FOUND BOOK " + name);
+            System.out.println("NAME FOUND AUTHOR " + author);
             List<WebElement> priceElemens = mainAmazonPage.getPricesOfTheBook(i);
             List<String> prices = new ArrayList<>();
             for (WebElement priceElement : priceElemens) {

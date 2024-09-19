@@ -20,7 +20,7 @@ public class AmazonBookTest extends BaseTest {
         bookHelper.openPage(AMAZON_URL);
         bookHelper.skipCaptcha();
         bookHelper.findProduct("Books", "java");
-        bookHelper.clickNextButtonAndWait(); //Needs if book absent on first page
+//        bookHelper.clickNextButtonAndWait(); //Needs if book absent on first page
         bookHelper.extractBookInfo();
         System.out.println("BOOK INFO: " + bookHelper.extractBookInfo());
         Assert.assertTrue(bookHelper.checkBookInList(bookToFind));
