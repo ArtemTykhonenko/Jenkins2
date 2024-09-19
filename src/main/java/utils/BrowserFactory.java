@@ -9,7 +9,7 @@ import java.time.Duration;
 import static utils.Constants.DEFAULT_TIMEOUT;
 
 public class BrowserFactory {
-    private static final String CHROME_DRIVER_PATH = "src/main/resources/chromedriver.exe";
+    private static final String CHROME_DRIVER_PATH = "src/main/resources/chromedriver";
     private static final String GECKO_DRIVER_PATH = "src/main/resources/geckodriver.exe";
 
     private BrowserFactory() {
